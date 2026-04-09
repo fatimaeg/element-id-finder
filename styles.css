@@ -1,0 +1,4 @@
+/* Just to ensure our tooltip stays on top */
+#element-id-finder-tooltip {
+  font-family: 'Courier New', monospace !important;
+}
