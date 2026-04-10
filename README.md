@@ -52,4 +52,24 @@
 
 ## 🛠️ Development
 
-### Project Structure
+## 📁 Project Structure
+
+- `id-finder-extension/`
+  - `manifest.json`
+  - `background.js`
+  - `content.js`
+  - `styles.css`
+  - `README.md`
+  - `LICENSE`
+  - `.gitignore`
+  - `icons/`
+    - `icon16.png`
+    - `icon32.png`
+    - `icon48.png`
+    - `icon128.png`
+  - `screenshots/`
+    - `demobig.gif`
+    - `demo.gif`
+    - `screenshot0.png`
+    - `screenshot1.png`
+    - `screenshot2.png`
