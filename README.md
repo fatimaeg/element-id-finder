@@ -1,21 +1,34 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Chrome Web Store](https://img.shields.io/badge/Chrome-Extension-blue)](https://chrome.google.com/webstore/...)
 [![Edge Add-on](https://img.shields.io/badge/Edge-Add--on-green)](https://microsoftedge.microsoft.com/...)
-[![GitHub stars](https://img.shields.io/github/stars/fatimaeg/id-finder)](https://github.com/fatimaeg/id-finder/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/fatimaeg/element-id-finder)](https://github.com/fatimaeg/element-id-finder/stargazers)
 # 🔍 ID Finder - Chrome & Edge Extension
 
 **Instantly see and copy HTML element IDs** by hovering and clicking. Perfect for web developers, testers, and automation engineers.
 
-![Demo](screenshots/demo.gif) *(add a screenshot or GIF here)*
+![Demo](screenshots/demo.gif) 
 
 ## ✨ Features
 
-- **Hover** over any element → instantly see its tag and ID
+- **Hover** over any element → instantly see its tag and ID and the input type
 - **Click** any element → automatically copy its ID to clipboard
 - **Highlight** effect shows exactly which element you're targeting
 - **ESC key** to disable inspector mode
 - Works on **any website**
 - **100% free** and open source
+
+## Now when you hover over different input types, you'll see:
+
+- **Text input** → `<input type="text" id="username">`
+- **Password field** → `<input type="password" id="pass" >`
+- **Email field** → `<input type="email" id="user-email">`
+- **Date picker** → `<input type="date" id="birthday">`
+- **Number field** → `<input type="number" id="quantity">`
+- **Checkbox** → `<input type="checkbox" id="agree">`
+- **Radio button** → `<input type="radio" id="option1">`
+- **Textarea** → `<textarea type="textarea" id="message">`
+- **Submit button** → `<button type="submit" id="submitBtn">`
+- **Select dropdown** → `<select type="select" id="country">`
 
 ## 🚀 Installation
 
