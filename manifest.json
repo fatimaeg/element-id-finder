@@ -2,10 +2,10 @@
   "manifest_version": 3,
   "name": "ID Finder - Instantly See & Copy Element IDs",
   "version": "1.0.0",
-  "description": "Hover over any element to see its ID, click to copy it instantly. Perfect for web developers and testers.",
+  "description": "Hover over any element to see its ID and Type, click to copy it instantly. Perfect for web developers and testers.",
   "permissions": ["activeTab", "clipboardWrite"],
   "action": {
-    "default_title": "Toggle ID Finder (ON/OFF)",
+    "default_title": "Element ID Finder (ON/OFF)",
     "default_icon": {
       "16": "icons/icon16.png",
       "32": "icons/icon32.png",
@@ -30,5 +30,5 @@
     "128": "icons/icon128.png"
   },
   "author": "Your Name",
-  "homepage_url": "https://your-website.com/id-finder"
+  "homepage_url": "https://github.com/fatimaeg/element-id-finder/tree/main"
 }
